@@ -13,7 +13,7 @@ class Topic extends CI_Controller {
         $this->load->view('main');
         $this->load->view('footer');
     }
-    function get($id){        
+    function get($id){
         $this->load->view('head');
         $topics = $this->topic_model->gets();
         $this->load->view('topic_list', array('topics'=>$topics));
