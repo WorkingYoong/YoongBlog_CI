@@ -1,5 +1,5 @@
-<div class="col-md-3">
-  <ul>
+<div class="col-md-2">
+  <ul class="nav nav-pills nav-stacked">
   <?php
   foreach($topics as $entry){
   ?>

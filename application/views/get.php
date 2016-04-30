@@ -1,4 +1,4 @@
-<div class="col-md-9">
+<div class="col-md-10">
   <article>
       <h1><?=$topic->title?></h1>
       <div>
