@@ -1,10 +1,10 @@
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 $active_group = 'default';
 $active_record = TRUE;
-$db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'root';
-$db['default']['password'] = 'asdf16';
-$db['default']['database'] = 'YoongBlog_CI';
+$db['default']['hostname'] = '';
+$db['default']['username'] = '';
+$db['default']['password'] = '';
+$db['default']['database'] = '';
 $db['default']['dbdriver'] = 'mysqli';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;

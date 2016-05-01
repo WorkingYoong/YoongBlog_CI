@@ -9,10 +9,10 @@
                 <link href="/YoongBlog_CI/static/lib/\bootstrap-3.3.6-dist/css/bootstrap-responsive.css" rel="stylesheet">
             </head>
             <body>
-              <div class="container-fluid">
+              <div class="container">
                 <div class="row-fluid">
                   <nav class="navbar navbar-default">
-                    <div class="container-fluid">
+                    <div class="container">
                       <!-- Brand and toggle get grouped for better mobile display -->
                       <div class="navbar-header">
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
