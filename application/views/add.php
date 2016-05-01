@@ -1,3 +1,4 @@
+
 <form action="/YoongBlog_CI/index.php/topic/add" method="post" class="col-md-10">
   <?php echo validation_errors(); ?>
   <label for="form-title">제목</label>
@@ -15,4 +16,9 @@
   <input type="submit" name="name" class="btn btn-success">
 </form>
 
-<form action="process.php" method="post">
+<script src="/YoongBlog_CI/static/lib/ckeditor/ckeditor.js"></script>
+<script>
+  CKEDITOR.replace('description', {
+    'filebrowserUploadUrl' : '/YoongBlog_CI/index.php/topic/upload_receive_fromCK'
+  });
+</script>

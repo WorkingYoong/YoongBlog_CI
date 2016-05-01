@@ -9,6 +9,16 @@
                 <link href="/YoongBlog_CI/static/lib/\bootstrap-3.3.6-dist/css/bootstrap-responsive.css" rel="stylesheet">
             </head>
             <body>
+              <?php
+                if ($this->session->flashdata('message'))
+                {
+               ?>
+               <script>
+                 alert('<?=$this->session->flashdata('message')?>');
+               </script>
+               <?php
+                }
+                ?>
               <div class="container">
                 <div class="row-fluid">
                   <nav class="navbar navbar-default">

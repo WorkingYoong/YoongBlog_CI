@@ -1,6 +1,7 @@
 <div class="col-md-10">
   <article>
       <h1><?=$topic->title?></h1>
+      <h1><?=$topic->author?></h1>
       <div>
         <div><?=kdate($topic->created)?></div>
         <div><?=$topic->description?></div>
